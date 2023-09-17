@@ -17,16 +17,8 @@ body {
 .navHero{
     background-color: #0063da;
     height: 100vh;
-    margin-top: -3rem;
-}
-.Hero {
-    padding: 15rem 0;
 }
 
-.Hero h1 {
-
-    letter-spacing: 3px;
-}
 .nav-item:hover{
     cursor: pointer;
 }
@@ -79,6 +71,15 @@ body {
     border-color: transparent;
 }
 
+
+.Hero {
+    padding: 15rem 0;
+}
+
+.Hero h1 {
+
+    letter-spacing: 3px;
+}
 
 
 .padding{

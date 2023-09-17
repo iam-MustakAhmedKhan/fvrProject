@@ -20,12 +20,21 @@ body {
     margin-top: -3rem;
 }
 .Hero {
-    padding-top: 5rem;
+    padding: 15rem 0;
 }
 
 .Hero h1 {
 
     letter-spacing: 3px;
+}
+.nav-item:hover{
+    cursor: pointer;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-item:hover .nav-link {
+    color: rgba(255, 255, 255, .5) !important;
 }
 
 .navbar-toggler:active,

@@ -1,12 +1,12 @@
 
 
 .list-items {
-    position: relative;
+ 
     margin-top: 15px;
     border-radius: 8px;
-    padding: 16px;
+ margin-left: 0;
     background-color: #fff;
-    /* display: none; */
+
 }
 
 .padding {
@@ -14,9 +14,7 @@
     padding-bottom: 6rem !important;
 }
 
-.select-btn.open~.list-items {
-    display: block;
-}
+
 
 .list-items .item {
     display: flex;

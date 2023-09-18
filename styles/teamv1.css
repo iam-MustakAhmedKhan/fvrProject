@@ -1,0 +1,87 @@
+.teamAllWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.category {
+    background-color: #f2f7fd;
+    font-size: 14px;
+}
+
+.category {
+    color: #0063da;
+}
+.padding {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+
+ .select-menu {
+     width: 380px;
+     /* margin: 140px auto; */
+ }
+
+ .select-menu .select-btn {
+     display: flex;
+     height: 55px;
+     background: #fff;
+     padding: 20px;
+     font-size: 18px;
+     font-weight: 400;
+     border-radius: 8px;
+     align-items: center;
+     cursor: pointer;
+     justify-content: space-between;
+ }
+
+ .select-btn i {
+     font-size: 25px;
+     transition: 0.3s;
+ }
+
+ .select-menu.active .select-btn i {
+     transform: rotate(-180deg);
+ }
+
+ .select-menu .options {
+     position: relative;
+     padding: 20px;
+     margin-top: 10px;
+     border-radius: 8px;
+     background: #fff;
+     display: none;
+ }
+
+ .select-menu.active .options {
+     display: block;
+ }
+
+ .options .option {
+     display: flex;
+     height: 55px;
+     cursor: pointer;
+     padding: 0 16px;
+     border-radius: 8px;
+     align-items: center;
+     background: #fff;
+ }
+
+ .options .option:hover {
+     background: #F2F2F2;
+ }
+
+ .option i {
+     font-size: 25px;
+     margin-right: 12px;
+ }
+
+ .option .option-text {
+     font-size: 18px;
+     color: #333;
+ }
+ .sBtn-text img{
+    width: 40px;
+    margin-right: 10px;
+ }

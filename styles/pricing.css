@@ -1,0 +1,201 @@
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item:hover .nav-link {
+    color: #0063da !important;
+}
+
+.login-btn {
+    border-color: #0063da !important;
+}
+
+.login-btn .nav-link {
+    color: #0063da !important;
+
+}
+
+.try-btn {
+    background-color: #0063da !important;
+    border-radius: 10px;
+}
+
+.try-btn .nav-link {
+    color: #fff !important;
+}
+
+.try-btn:hover .nav-link {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.try-btn .nav-link i {
+    color: #fff !important;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+    width: 24px;
+    height: 17px;
+    background-image: none;
+    position: relative;
+    border-bottom: 1px solid #0063da;
+    transition: all 300ms linear;
+}
+
+.navbar-toggler-icon:after,
+.navbar-toggler-icon:before {
+    width: 24px;
+    position: absolute;
+    height: 1px;
+    background-color: #0063da;
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: 2;
+    transition: all 300ms linear;
+}
+
+.navbar-toggler-icon:after {
+    top: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: translateY(8px) rotate(-45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
+}
+
+.navbar,
+.nav-container {
+    /* background-color: #0063da !important; */
+}
+
+.navHero {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.padding {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.category {
+    background-color: #FEF0C7;
+    font-size: 14px;
+}
+
+.category {
+    color: #F79009;
+}
+
+
+
+.backBtn:hover a {
+    color: white !important;
+}
+
+.aside-links li {
+    padding: 10px 20px;
+}
+
+.active-side-link {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: black !important;
+
+}
+
+.invites {
+    background: linear-gradient(95deg, #0063DA 74.33%, #86A3ED 93.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.pricingCard {
+    width: 300px;
+}
+
+
+.sectionCards {
+    padding: 50px 30px;
+    border-radius: 25px;
+
+}
+
+.div1 {
+    width: 455px;
+    height: 454px;
+    flex-shrink: 0;
+    border-radius: 455px;
+    opacity: 0.3;
+    background: #3D52DF;
+    filter: blur(150px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.div2 {
+    width: 335px;
+    height: 332px;
+    flex-shrink: 0;
+    border-radius: 335px;
+    opacity: 0.3;
+    background: #0063DA;
+    filter: blur(150px);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.div3 {
+    width: 384px;
+    height: 382px;
+    flex-shrink: 0;
+    border-radius: 384px;
+    opacity: 0.3;
+    background: #25BAF5;
+    filter: blur(150px);
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
+
+.sectionCard {
+    border-radius: 15px;
+    background-color: white !important;
+}
+
+.sectionCard img {
+    border-radius: 12px;
+    background: rgba(0, 99, 218, 0.05);
+    padding: 15px;
+}
+
+.footer {
+    background-color: #191b1d;
+}

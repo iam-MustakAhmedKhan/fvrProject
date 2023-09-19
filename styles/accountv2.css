@@ -1,3 +1,4 @@
+/***************************************** navbar Start *****************************************/
 .wrapper {
     width: 100%;
 }
@@ -147,15 +148,7 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
+/***************************************** navbar end *****************************************/
 
 
 #content {
@@ -166,6 +159,7 @@ a[data-toggle="collapse"] {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 
 .signoutBtn {
     color: #98A2B3 !important;
@@ -181,20 +175,21 @@ a[data-toggle="collapse"] {
     width: 100%;
 }
 
-input[type="file"] {
-    height: 0;
-    width: 0;
-    overflow: hidden;
-}
-.profilePic label img{
+.profilePic label img {
     width: 20px;
 }
 
-.profilePic label{
+.profilePic label {
     background-color: rgba(168, 166, 166, 0.8);
     width: 100%;
     height: 30px;
     position: absolute;
     bottom: 0;
     text-align: center;
+}
+
+input[type="file"] {
+    height: 0;
+    width: 0;
+    overflow: hidden;
 }

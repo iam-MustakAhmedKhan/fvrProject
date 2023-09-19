@@ -1,3 +1,5 @@
+/***************************************** navbar Start *****************************************/
+
 .nav-item:hover {
     cursor: pointer;
 }
@@ -80,11 +82,9 @@
     border-color: transparent;
 }
 
-.navbar,
-.nav-container {
-    /* background-color: #0063da !important; */
-}
+/***************************************** navbar end *****************************************/
 
+/***************************************** Hero start *****************************************/
 .navHero {
     background-color: white;
     height: 100%;
@@ -94,21 +94,7 @@
     padding-top: 10rem;
 }
 
-.padding {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-}
-
-.category {
-    background-color: #f2f7fd;
-    font-size: 14px;
-}
-
-.category {
-    color: #0063da;
-}
-
-
+/***************************************** Hero end *****************************************/
 
 
 .card{
@@ -143,8 +129,4 @@
     .teamCard {
         grid-template-columns: repeat(1, 1fr);
     }
-}
-
-.footer {
-    background-color: #191b1d;
 }

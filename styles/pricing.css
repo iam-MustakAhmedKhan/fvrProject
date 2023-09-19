@@ -1,3 +1,4 @@
+/***************************************** navbar Start *****************************************/
 .nav-item:hover {
     cursor: pointer;
 }
@@ -80,33 +81,7 @@
     border-color: transparent;
 }
 
-.navbar,
-.nav-container {
-    /* background-color: #0063da !important; */
-}
-
-.navHero {
-    background-color: white;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10rem;
-}
-
-.padding {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-}
-
-.category {
-    background-color: #FEF0C7;
-    font-size: 14px;
-}
-
-.category {
-    color: #F79009;
-}
+/***************************************** navbar end *****************************************/
 
 
 
@@ -146,6 +121,7 @@
 
 }
 
+/***************************************** for gredient start *****************************************/
 .div1 {
     width: 455px;
     height: 454px;
@@ -184,6 +160,7 @@
     bottom: 0;
     left: 100%;
 }
+/***************************************** for gredient end *****************************************/
 
 .sectionCard {
     border-radius: 15px;
@@ -194,8 +171,4 @@
     border-radius: 12px;
     background: rgba(0, 99, 218, 0.05);
     padding: 15px;
-}
-
-.footer {
-    background-color: #191b1d;
 }

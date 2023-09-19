@@ -5,18 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Account V2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap css start -->
+    <link rel="stylesheet" href="../styles/bootstrap/bootstrap.min.css">
+    <!-- bootstrap css end -->
 
+    <!-- icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
+    <!-- why page main css -->
     <link rel="stylesheet" href="../styles/accountv2.css">
+
+    <!-- common css start -->
+    <link rel="stylesheet" href="../styles/common.css">
+    <!-- common css end -->
+
+
 </head>
 
 <body>
 
 
     <section class="wrapper d-flex align-items-stretch">
+
+        <!-- side nav start -->
         <nav id="sidebar">
             <div class="custom-menu">
                 <button type="button" id="sidebarCollapse" class="btn btn-primary">
@@ -42,10 +53,11 @@
                         <a href="#"><img src="../assets/img/icons/people.svg" alt=""> Teammates</a>
                     </li>
                 </ul>
-
             </div>
         </nav>
+        <!-- side nav End -->
 
+        <!-- content start -->
         <div id="content" class="p-4 p-md-5 pt-5">
             <div class="contentTitle d-flex align-items-center justify-content-between">
                 <h1 class="fw-bold">Account Details</h1>
@@ -53,11 +65,7 @@
                         class="me-2" alt="">Sign Out</a>
             </div>
 
-
-
-
             <div class="py-5">
-
                 <div class="accoutnWrap col-12 col-lg-4">
                     <div class="ProfileInfo w-100 py-4">
                         <p class="text-black fw-medium">Profile Photo</p>
@@ -67,12 +75,14 @@
                                 <div class="profilePic position-relative ">
                                     <img src="../assets/img/team14.svg" alt="">
                                     <input type="file" id="file" />
-                                    <label for="file" /><img src="../assets/img/icons/camera.svg" class="me-2" alt=""></label>
+                                    <label for="file" /><img src="../assets/img/icons/camera.svg" class="me-2"
+                                        alt=""></label>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+
                     <form class="w-100">
                         <div class="mb-3">
                             <label for="name" class="form-label fw-medium">Your Name</label>
@@ -91,12 +101,9 @@
                         <button type="submit" class="btn btn-primary w-100">Save Changes</button>
                     </form>
                 </div>
-
-
-
             </div>
-
         </div>
+        <!-- content End -->
     </section>
 
 
@@ -106,9 +113,7 @@
 
 
     <script src="../Scripts/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="../Scripts/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

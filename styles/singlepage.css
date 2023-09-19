@@ -1,3 +1,5 @@
+
+/***************************************** nav links start *****************************************/
 .nav-item:hover {
     cursor: pointer;
 }
@@ -54,6 +56,8 @@
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-color: transparent;
 }
+
+/***************************************** nav links end *****************************************/
 
 .active{
     color: #0063da !important;

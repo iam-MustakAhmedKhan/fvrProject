@@ -1,3 +1,5 @@
+/***************************************** nav links start *****************************************/
+
 .nav-item:hover {
     cursor: pointer;
 }
@@ -55,29 +57,18 @@
 }
 
 
+/***************************************** nav links end *****************************************/
+
+
 .teamAllWrap{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
 }
-.category {
-    background-color: #f2f7fd;
-    font-size: 14px;
-}
-
-.category {
-    color: #0063da;
-}
-.padding {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-}
-
 
  .select-menu {
      width: 380px;
-     /* margin: 140px auto; */
  }
 
  .select-menu .select-btn {

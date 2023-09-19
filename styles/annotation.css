@@ -1,3 +1,5 @@
+
+/***************************************** nav links start *****************************************/
 .nav-item:hover {
     cursor: pointer;
 }
@@ -55,8 +57,9 @@
     border-color: transparent;
 }
 
+/***************************************** nav links end *****************************************/
 
-
+/***************************************** sidebar and content start *****************************************/
 #wrapper {
     padding-right: 0;
     -webkit-transition: all 0.5s ease;
@@ -129,10 +132,8 @@
     }
 }
 
-.padding {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-}
+/***************************************** sidebar and content end *****************************************/
+
 
 .c-card:hover{
     cursor: pointer;

@@ -1,3 +1,5 @@
+
+/***************************************** nav links start *****************************************/
 .nav-item:hover {
     cursor: pointer;
 }
@@ -54,20 +56,16 @@
     border-color: transparent;
 }
 
+/***************************************** nav links end *****************************************/
+
 .list-items {
- 
+
     margin-top: 15px;
     border-radius: 8px;
- margin-left: 0;
+    margin-left: 0;
     background-color: #fff;
 
 }
-
-.padding {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-}
-
 
 
 .list-items .item {
@@ -81,7 +79,7 @@
     border-radius: 8px;
 }
 
-.list-items .item img{
+.list-items .item img {
     width: 40px;
 }
 
@@ -94,4 +92,3 @@
     font-weight: 400;
     color: #333;
 }
-

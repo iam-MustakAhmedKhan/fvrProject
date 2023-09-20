@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Annotation</title>
     <!-- bootstrap css start -->
     <link rel="stylesheet" href="../styles/bootstrap/bootstrap.min.css">
@@ -30,7 +30,7 @@
     <div class="nav-container py-4 position-absolute top-0 z-3 w-100 bg-body position-fixed border-bottom">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="../assets/img/logo-black.svg" alt=""></a>
+                <a class="navbar-brand" href="/"><img src="../assets/img/logo-black.svg" alt=""></a>
                 <button class="navbar-toggler border pb-2" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-body d-lg-flex align-items-center gap-lg-0 gap-4">
 
                         <li class="nav-item ms-lg-3 px-1">
-                            <button class="btn border py-0">
+                            <button class="btn border py-0 nav-b">
                                 <a href="#" class="text-black nav-link">
                                     <img class="me-2" src="../assets/img/icons/document-text.svg" alt="">
                                     Versions
@@ -49,7 +49,7 @@
 
                         </li>
                         <li class="nav-item ms-lg-3 px-1 commentBtn">
-                            <button class="btn border py-0">
+                            <button class="btn border py-0 nav-b">
                                 <a href="#" class="text-black nav-link">
                                     <img class="me-2" src="../assets/img/icons/messages-3.svg" alt="">
                                     Comments
@@ -58,7 +58,7 @@
 
                         </li>
                         <li class="nav-item shareBtn ms-lg-3 px-1">
-                            <button class="btn btn-primary py-0">
+                            <button class="btn btn-primary py-0 ">
                                 <a href="#" class="text-white nav-link">
                                     <img class="me-2" src="../assets/img/icons/export.svg" alt="">
                                     Share
@@ -76,10 +76,10 @@
     <!--Navbar End-->
 
 
-    <section id="wrapper" class="padding">
+    <section id="wrapper">
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper" class="z-0 bg-white border-start pt-5">
+        <div id="sidebar-wrapper" class="z-0 bg-white border-start z-2">
             <div class="sidebarTitle d-flex align-items-center justify-content-between  px-3">
                 <h1 class="fs-4 fw-bold">Comments</h1>
                 <div class="close p-4"><img src="../assets/img/icons/close.svg" alt=""></div>
@@ -87,7 +87,7 @@
 
             <div class="px-3 c-btns">
                 <button class="btn border active">All</button>
-                <button class="btn border">Unresolve <span
+                <button class="btn border">Unresolve <span class="unsolvedSpan"
                         style="width: 5px ;height: 0px; padding:0 5px;border-radius: 50% ;background-color: #edeef3;">3</span></button>
                 <button class="btn border">Resolved</button>
             </div>
@@ -97,7 +97,7 @@
                 <button class="btn border-0"><img class="me-2" src="../assets/img/icons/sort.svg" alt="">Sort</button>
             </div>
 
-            <div class="c-card d-flex align-items-start gap-4 c-active px-3 py-3">
+            <div class="c-card d-flex align-items-start gap-4 px-3 py-3">
                 <div class="commentImg">
                     <img src="../assets//img/team1.svg" alt="">
                 </div>
@@ -148,27 +148,140 @@
                     </div>
                 </div>
             </div>
+            <div class="c-card d-flex align-items-start gap-4 px-3 py-3">
+                <div class="commentImg">
+                    <img src="../assets//img/team1.svg" alt="">
+                </div>
+                <div class="commentInfo">
+                    <div class="name d-flex align-items-center justify-content-between gap-5">
+                        <h1 class="fs-4 fw-medium">Kristin Watson</h1>
+
+                        <div class="c-icons">
+                            <img src="../assets/img/icons/tick-circle.svg" alt="">
+                            <img src="../assets/img/icons/close.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="c-time">
+                        <p class="text-black-50"><img class="me-2" src="../assets/img/icons/message-text.svg" alt="">#15
+                            · 10 min. ago</p>
+                    </div>
+
+                    <div class="c-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam eget enim vitae
+                            ultrices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card d-flex align-items-start gap-4 px-3 py-3">
+                <div class="commentImg">
+                    <img src="../assets//img/team1.svg" alt="">
+                </div>
+                <div class="commentInfo">
+                    <div class="name d-flex align-items-center justify-content-between gap-5">
+                        <h1 class="fs-4 fw-medium">Kristin Watson</h1>
+
+                        <div class="c-icons">
+                            <img src="../assets/img/icons/tick-circle.svg" alt="">
+                            <img src="../assets/img/icons/close.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="c-time">
+                        <p class="text-black-50"><img class="me-2" src="../assets/img/icons/message-text.svg" alt="">#15
+                            · 10 min. ago</p>
+                    </div>
+
+                    <div class="c-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam eget enim vitae
+                            ultrices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card d-flex align-items-start gap-4 px-3 py-3">
+                <div class="commentImg">
+                    <img src="../assets//img/team1.svg" alt="">
+                </div>
+                <div class="commentInfo">
+                    <div class="name d-flex align-items-center justify-content-between gap-5">
+                        <h1 class="fs-4 fw-medium">Kristin Watson</h1>
+
+                        <div class="c-icons">
+                            <img src="../assets/img/icons/tick-circle.svg" alt="">
+                            <img src="../assets/img/icons/close.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="c-time">
+                        <p class="text-black-50"><img class="me-2" src="../assets/img/icons/message-text.svg" alt="">#15
+                            · 10 min. ago</p>
+                    </div>
+
+                    <div class="c-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam eget enim vitae
+                            ultrices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card d-flex align-items-start gap-4 px-3 py-3">
+                <div class="commentImg">
+                    <img src="../assets//img/team1.svg" alt="">
+                </div>
+                <div class="commentInfo">
+                    <div class="name d-flex align-items-center justify-content-between gap-5">
+                        <h1 class="fs-4 fw-medium">Kristin Watson</h1>
+
+                        <div class="c-icons">
+                            <img src="../assets/img/icons/tick-circle.svg" alt="">
+                            <img src="../assets/img/icons/close.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="c-time">
+                        <p class="text-black-50"><img class="me-2" src="../assets/img/icons/message-text.svg" alt="">#15
+                            · 10 min. ago</p>
+                    </div>
+
+                    <div class="c-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam eget enim vitae
+                            ultrices.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <!-- /sidebar-wrapper -->
 
         <!-- Page Content -->
-        <div id="page-content-wrapper" class="d-flex justify-content-start align-items-baseline gap-5 pt-5">
+        <div id="page-content-wrapper" class="d-flex justify-content-start align-items-baseline gap-5 pt-5 z-1">
             <button type="button" class="btn border backBtnd d-none d-lg-block">
                 <a href="#" class="text-decoration-none text-black text-wh lh-1">
                     <i class="bi bi-arrow-left"></i>
                     Back </a>
             </button>
 
-            <div class="container-fluid col-12 col-lg-7 mx-auto">
+            <div class="container-fluid col-12 col-lg-7 mx-auto text-center text-lg-start mt-4 mt-lg-0">
                 <div class="content position-relative">
                     <div class="contentTitle mb-5">
                         <h1 class="fs-2 fw-medium">Ribi Shachi</h1>
                         <p class="text-black-50 fs-5">Add a description here - the purpose, context, objectives...</p>
                     </div>
                     <div class="contentImg">
-                        <img src="../assets/img/Rectangle 5.svg" class="img-fluid" alt="">
-
+                        <div class="position-relative">
+                            <img src="../assets/img/Rectangle 5.svg" class="img-fluid" alt="">
+                            <div class="commentAnno">
+                                <div
+                                    class="expendablecomment col-12 col-lg-6 mx-auto d-flex align-items-center gap-2 px-2 px-lg-0">
+                                    <img src="../assets/img/icons/plus-blue.svg" alt="">
+                                    <div class="w-100 position-relative">
+                                        <input type="text" class="form-control"
+                                            placeholder="Add a comment, @ to mention someone">
+                                        <div class="SendBtn"><img src="../assets/img/icons/arrow-right.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,16 +294,16 @@
 
 
 
-   <!-- modal start -->
+    <!-- modal start -->
     <div id="shareModal" class="modal">
         <div class="modal__content">
             <h1>Share your Project </h1>
-    
+
             <p>
                 You’ve created a new project! Invite your team to review collaborate on this project.
             </p>
-    
-    
+
+
             <div class="d-flex align-items-center justify-content-between">
                 <p class="mt-3">Project Link</p>
                 <button class="btn border py-1">
@@ -201,11 +314,12 @@
                 </button>
             </div>
             <div>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="feedberry.com/ribishachi"
+                <div
+                    class="input-group mb-3 position-relative border rounded-3 overflow-hidden d-flex justify-content-between w-100 ">
+                    <input type="text" class="border-0 p-3 g-input w-75" placeholder="feedberry.com/ribishachi"
                         aria-label="Recipient's username" aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn border">
+                        <button class="btn border me-2">
                             <a href="#" class="text-black nav-link">
                                 <img class="me-2" src="../assets/img/icons/setting.svg" alt="">
                                 Generate
@@ -227,10 +341,10 @@
                     </select>
                 </div>
             </div>
-    
+
             <div>
                 <h1 class="fs-4 fw-bold pt-3">Shared Links</h1>
-    
+
                 <div class="d-flex align-items-center justify-content-between">
                     <p class="m-2 text-black-50">http://www.dambase.com</p>
                     <div>
@@ -252,18 +366,18 @@
             </div>
             <hr>
             <button class="btn fw-bold text-primary text-start mt-4">Invites Teammates</button>
-    
-    
-            <a href="#" class="modal__close fs-2">&times;</a>
+
+
+            <a href="#" class="modal__close fs-2"><img src="../assets/img/icons/close.svg" alt=""></a>
         </div>
     </div>
-   <!-- modal end-->
+    <!-- modal end-->
 
 
 
 
     <script src="../Scripts/annotation.js"></script>
-   <script src="../Scripts/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 

@@ -1,5 +1,8 @@
-
 /***************************************** nav links start *****************************************/
+
+body {
+    overflow: hidden;
+}
 .nav-item:hover {
     cursor: pointer;
 }
@@ -57,6 +60,8 @@
     border-color: transparent;
 }
 
+
+
 /***************************************** nav links end *****************************************/
 
 /***************************************** sidebar and content start *****************************************/
@@ -66,6 +71,8 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    height: 100vh;
+    overflow: hidden !important;
 }
 
 #wrapper.toggled {
@@ -85,10 +92,12 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    padding-top: 7rem;
 }
 
+
 #wrapper.toggled #sidebar-wrapper {
-    width: 500px;
+    width: 30%;
     right: 500px;
 }
 
@@ -96,21 +105,42 @@
     width: 100%;
     position: absolute;
     padding: 15px;
+    margin-top: 7rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #page-content-wrapper .btn {
+    margin-left: 200px;
+}
+
+#page-content-wrapper .btn {
+    margin-left: 4rem;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.contentImg img {
+    width: 100%;
 }
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
-    margin-left: -500px;
+    margin-left: -200px;
 }
 
 
-@media (min-width: 768px) {
+@media only screen and (max-width:700px) {
     #wrapper {
         padding-right: 0;
     }
 
     #wrapper.toggled {
-        padding-right: 500px;
+        padding-right: 0;
     }
 
     #sidebar-wrapper {
@@ -118,7 +148,7 @@
     }
 
     #wrapper.toggled #sidebar-wrapper {
-        width: 500px;
+        width: 100%;
     }
 
     #page-content-wrapper {
@@ -135,32 +165,62 @@
 /***************************************** sidebar and content end *****************************************/
 
 
-.c-card:hover{
+.c-card:hover {
     cursor: pointer;
 }
 
-.active{
+.active {
     color: #0063da !important;
     background-color: rgba(0, 99, 218, 0.1) !important;
 }
-.c-icons{
+
+.active .unsolvedSpan{
+    background-color: #0063da !important;
+    color: white;
+}
+
+.c-icons {
     display: none;
 }
-.c-active{
+
+.c-active {
     background-color: rgba(249, 251, 252, 1);
 }
-.c-active .c-icons{
+
+.c-active .c-icons {
     display: block;
 }
 
-.contentImg{
+.contentImg {
     position: absolute;
 }
 
 
+.commentAnno{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000073;
+}
 
+.expendablecomment{
+    margin-top: 10rem;
+}
+.expendablecomment input{
+    padding-right: 3rem;
+}
+.expendablecomment img{
+    width: 30px;
+}
 
-
+.SendBtn{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    translate: 0 -50%;
+    
+}
 
 .modal {
     position: absolute;
@@ -177,34 +237,52 @@
 
 
 .modal__content {
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     width: 600px;
     max-width: 90%;
     background: #fff;
-    padding: 1em 2em;
+    padding: 2rem;
 }
 
 
 .modal__close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 2rem;
+    right: 2rem;
     color: #585858;
     text-decoration: none;
+    width: 2rem;
+}
+
+.modal__close img {
+    width: 100%;
 }
 
 
-.display{
+.display {
     display: flex !important;
 }
 
 
-.iconAndInfo .img{
+.iconAndInfo .img {
     width: 40px;
     height: 40px;
     background-color: #f3f5f7;
     text-align: center;
     line-height: 10px;
     border-radius: 50%;
+}
+
+.g-input:focus,
+.g-input:active {
+    border: none;
+    outline: none;
+}
+
+.input-group-append {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    translate: 0 -50%;
 }

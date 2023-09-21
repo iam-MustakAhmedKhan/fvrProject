@@ -179,6 +179,8 @@ a[data-toggle="collapse"] {
     --bs-table-bg-state:rgba(237, 238, 243, 1);
 }
 
-@media screen and (min-width:900px) {
-    
+@media screen and (max-width:900px) {
+    .currentPlan div{
+        overflow-x: scroll !important;
+    }
 }

@@ -175,6 +175,10 @@ a[data-toggle="collapse"] {
     padding-bottom: 6rem !important;
 }
 
-.table-active tr{
-    background-color: rgba(237, 238, 243, 1) !important;
+.table-active{
+    --bs-table-bg-state:rgba(237, 238, 243, 1);
+}
+
+@media screen and (min-width:900px) {
+    
 }

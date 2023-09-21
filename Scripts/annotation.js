@@ -6,7 +6,7 @@ let closeBtn = document.querySelector('.close img');
 let cCard = document.querySelectorAll('.c-card');
 let cBtns = document.querySelectorAll('.c-btns button');
 let navBtn = document.querySelectorAll('.nav-item .nav-b');
-
+let historyBtn = document.querySelector('.historyBtn')
 
 
 
@@ -21,7 +21,6 @@ closeBtn.addEventListener('click', () => {
 
 
 cCard.forEach(function (button) {
-    console.log(button);
     button.addEventListener('click', function () {
         cCard.forEach(function (button) {
             button.classList.remove('c-active');
@@ -60,3 +59,12 @@ shareBtn.addEventListener('click', () => {
 modal__close.addEventListener('click', () => {
     model.classList.remove('display');
 });
+
+
+let dd = document.querySelector('.dropdownCustom');
+
+document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('historyBtn')) {
+        dd.classList.toggle('visible')
+    }
+})

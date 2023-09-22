@@ -12,6 +12,12 @@
     color: #0063da !important;
 }
 
+.navInner {
+    background-color: #0063da;
+    width: 100%;
+    height: 4rem;
+}
+
 .navbar-toggler:active,
 .navbar-toggler:focus {
     outline: none;

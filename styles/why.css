@@ -9,33 +9,39 @@
 }
 
 .nav-item:hover .nav-link {
-    color: #0063da !important;
+    color: rgba(255, 255, 255, 0.705) !important;
 }
 
 .login-btn {
-    border-color: #0063da !important;
+    border-color: white !important;
 }
 
 .login-btn .nav-link {
-    color: #0063da !important;
+    color: white !important;
 
 }
 
-.try-btn {
-    background-color: #0063da !important;
-    border-radius: 10px;
+.try-btnn {
+    background-color: white !important;
+    border-radius: 20px;
 }
 
-.try-btn .nav-link {
-    color: #fff !important;
+.try-btnn .nav-link {
+    color: black !important;
 }
 
-.try-btn:hover .nav-link {
-    color: rgba(255, 255, 255, 0.5) !important;
+.try-btnn:hover .nav-link {
+    color: rgba(0, 0, 0, 0.568) !important;
 }
 
-.try-btn .nav-link i {
-    color: #fff !important;
+.try-btnn .nav-link i {
+    color: black !important;
+}
+
+.navInner {
+    background-color: #0063da;
+    width: 100%;
+    height: 4rem;
 }
 
 .navbar-toggler:active,
@@ -97,28 +103,31 @@
 /***************************************** Hero end *****************************************/
 
 
-.card{
-    background-color:  #f9fbfc;
+.card {
+    background-color: #f9fbfc;
     border-radius: 25px;
     transition: 200ms;
 }
-.card:hover{
+
+.card:hover {
     background-color: #0063da;
     color: white;
 
 }
-.card:hover p{
+
+.card:hover p {
     color: rgba(255, 255, 255, 0.5) !important;
 }
 
 
-.teamCard{
+.teamCard {
     display: grid !important;
     gap: 1rem;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center !important;
     justify-content: start !important;
 }
+
 @media (max-width: 1200px) {
     .teamCard {
         grid-template-columns: repeat(2, 1fr);

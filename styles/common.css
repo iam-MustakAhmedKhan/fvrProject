@@ -59,3 +59,21 @@ img{
     width: 300px;
     height: auto;
 }
+
+
+.try-btn {
+    background-color: #0063da !important;
+    border-radius: 20px;
+}
+
+.try-btn .nav-link {
+    color: #fff !important;
+}
+
+.try-btn:hover .nav-link {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.try-btn .nav-link i {
+    color: #fff !important;
+}

@@ -17,6 +17,12 @@ body {
     box-shadow: none !important;
 }
 
+.navInner {
+    background-color: #0063da;
+    width: 100%;
+    height: 4rem;
+}
+
 .navbar-toggler-icon {
     width: 24px;
     height: 17px;
@@ -26,10 +32,10 @@ body {
     transition: all 300ms linear;
 }
 
-.padding {
+/* .padding {
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
-}
+} */
 
 .navbar-toggler-icon:after,
 .navbar-toggler-icon:before {

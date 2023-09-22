@@ -1,8 +1,8 @@
 /***************************************** nav links start *****************************************/
-
+/* 
 body {
     overflow: hidden;
-}
+} */
 .nav-item:hover {
     cursor: pointer;
 }
@@ -71,12 +71,11 @@ body {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    height: 100vh;
-    overflow: hidden !important;
+    height: 100%;
 }
 
 #wrapper.toggled {
-    padding-right: 500px;
+    /* padding-right: 500px; */
 }
 
 #sidebar-wrapper {
@@ -92,7 +91,7 @@ body {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    padding-top: 7rem;
+    padding-bottom: 7rem;
     width: 30%;
     visibility: hidden;
 }
@@ -105,7 +104,7 @@ body {
 
 #page-content-wrapper {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     padding: 15px;
     margin-top: 7rem;
     -webkit-transition: all 0.5s ease;
@@ -131,7 +130,8 @@ body {
 }
 
 #wrapper.toggled #page-content-wrapper {
-    position: absolute;
+    /* position: absolute; */
+    width: 100%;
     margin-left: -200px;
 }
 
@@ -194,7 +194,8 @@ body {
 }
 
 .contentImg {
-    position: absolute;
+    /* position: absolute; */
+    width: 80%;
 }
 
 
@@ -286,6 +287,11 @@ body {
     height: 80px;
 }
 
+.thread{
+    border-left: 2px solid #0063da !important;
+}
+
+
 
 .modal {
     position: absolute;
@@ -313,7 +319,7 @@ body {
 
 .modal__close {
     position: absolute;
-    top: 2rem;
+    top: 1rem;
     right: 2rem;
     color: #585858;
     text-decoration: none;

@@ -46,13 +46,13 @@ img{
     background-color: #191b1d;
 }
 
-
+/* 
 .toolWrap{
     position: absolute;
     top: 35%;
     right: 0;
     translate: 0 -35%;
-}
+} */
 
 .tooltip-inner {
     max-width: 300px;

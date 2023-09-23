@@ -1,16 +1,54 @@
-/***************************************** navbar start *****************************************/
-.navbar,
-.nav-container {
-    background-color: #0063da !important;
+/***************************************** navbar Start *****************************************/
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item:hover .nav-link {
+    color: rgba(255, 255, 255, 0.705) !important;
+}
+
+.login-btn {
+    border-color: white !important;
+}
+
+.login-btn .nav-link {
+    color: white !important;
+
+}
+
+.try-btnn {
+    background-color: white !important;
+    border-radius: 20px;
+}
+
+.try-btnn .nav-link {
+    color: black !important;
+}
+
+.try-btnn:hover .nav-link {
+    color: rgba(0, 0, 0, 0.568) !important;
+}
+
+.try-btnn .nav-link i {
+    color: black !important;
 }
 
 .navInner {
-    background-color: white;
+    background-color: black;
     width: 100%;
-    height: 4rem;
+    height: 6rem;
+    border-radius: 50px;
 }
 
-
+/* 
+.nav-container{
+    background: white !important;
+} */
 
 .navHero {
     background-color: #0063da;
@@ -25,9 +63,9 @@
     list-style: none;
 }
 
-.nav-item:hover .nav-link {
+/* .nav-item:hover .nav-link {
     color: #0063da !important;
-}
+} */
 
 
 .navbar-toggler:active,

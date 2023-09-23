@@ -20,7 +20,8 @@ body {
 .navInner {
     background-color: black;
     width: 100%;
-    height: 4rem;
+    height: 6rem;
+    border-radius: 50px;
 }
 
 .navbar-toggler-icon {
